@@ -1,19 +1,23 @@
 <html>
   <head>
+<style>
+body 
+{ background-color: lightblue;
+          }
+<h1>"color:white;"</h1>
+<p>"color: white;"</p>
+</style>
     <title>Jargon Linker</title>
     <!-- Replace the content in the following line with your name. -->
     <meta name="author" content="Dennis">
     
   </head>
-  <body> { background-color: lightblue;
-          }
+  <body> 
     <!-- Replace the lines in this body with your content. -->
     <h1>Jargon Linker</h1>
-    <h1>Word Bank Network</h1>
+    <p>Word Bank Network</p>
     <img src="atlantis.jpeg">
-    <p> { text-align: center;
-        color: white;
-        }
+    <p> 
   </p>
     <p><a href="secondpage.html">More</a></p>
   </body>

@@ -2,8 +2,7 @@
   <head>
 <style>
 .body 
-{ background-color: lightblue;
-          }
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -52,18 +51,26 @@
     
   </head>
   <body> 
-    <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+
+  <h1>Jargon Linker</h1>
+  <p>Word Bank Network</p>
+  <img src="atlantis.jpeg">
+
+  <div>
+  <div class="dropdown">
+  <button 
+class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
   <a href="#">add word</a>
   <a href="#">definitions</a>
   </div>
-</div>
+
+
+
     <!-- Replace the lines in this body with your content. -->
-    <h1>Jargon Linker</h1>
-    <p>Word Bank Network</p>
-    <img src="atlantis.jpeg">
-    <p> 
+   
+    <p>
+
   </p>
     <p><a href="secondpage.html">More</a></p>
   </body>

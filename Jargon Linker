@@ -9,6 +9,10 @@ div2 {
   margin: 20px;
 }
 
+div2.relative {
+  position: relative;
+}
+
 
 .dropbtn {
   background-color: #4CAF50;
@@ -72,6 +76,7 @@ class="dropbtn">Dropdown</button>
   <a href="#">definitions</a>
   </div>
 <div2>submit</div2>
+<div2 class="relative"></div2>
 
 
 

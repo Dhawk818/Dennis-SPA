@@ -1,7 +1,14 @@
 <html>
   <head>
 <style>
-.body 
+div2 {
+  background-color: lightgrey;
+  width: 40px;
+  border: 15px solid green;
+  padding: 10px;
+  margin: 20px;
+}
+
 
 .dropbtn {
   background-color: #4CAF50;
@@ -64,6 +71,7 @@ class="dropbtn">Dropdown</button>
   <a href="#">add word</a>
   <a href="#">definitions</a>
   </div>
+<div2>submit</div2>
 
 
 

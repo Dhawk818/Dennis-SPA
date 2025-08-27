@@ -1,17 +1,9 @@
 <html>
   <head>
 <style>
-div2 {
-  background-color: lightgrey;
-  width: 40px;
-  border: 15px solid green;
-  padding: 10px;
-  margin: 20px;
-}
 
-div2.relative {
-  position: relative;
-}
+
+
 
 
 .dropbtn {
@@ -75,8 +67,14 @@ class="dropbtn">Dropdown</button>
   <a href="#">add word</a>
   <a href="#">definitions</a>
   </div>
-<div2>submit</div2>
-<div2 class="relative"></div2>
+
+  <form action="enter destination bank">
+  <label for="fname">word:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">definition:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
 
 
 

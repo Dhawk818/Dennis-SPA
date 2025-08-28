@@ -1,14 +1,84 @@
 <html>
   <head>
-    <title>CS 1030 Web Page Project</title>
+<style>
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+<h1>"color:white;"</h1>
+<p>"color: white;"</p>
+</style>
+    <title>Jargon Linker</title>
     <!-- Replace the content in the following line with your name. -->
-    <meta name="author" content="Dennis">
+    <meta name="author" content="Dennis C Hawkins">
+    
   </head>
   <body> 
+
+  <h1>Jargon Linker</h1>
+  <p>Word Bank Network</p>
+  <img src="atlantis.jpeg">
+
+  <div>
+  <div class="dropdown">
+  <button 
+class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="#">add word</a>
+  <a href="#">definitions</a>
+  </div>
+
+  <form action="enter destination bank">
+  <label for="fname">word:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">definition:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+
+
+
     <!-- Replace the lines in this body with your content. -->
-    <h1>CS39AF - Dennis SPA assignment</h1>
-    <img src="atlantis.jpeg">
-    <p>Hello world!</p>
+   
+    <p>
+
+  </p>
     <p><a href="secondpage.html">More</a></p>
   </body>
 </html>
